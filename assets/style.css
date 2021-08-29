@@ -1,0 +1,55 @@
+.table-responsive {
+	padding: .5rem;
+}
+
+.table :is(th, td):nth-of-type(1),
+.table :is(th, td):nth-of-type(4),
+.table :is(th, td):nth-of-type(6),
+.table :is(th, td):nth-of-type(7),
+.table :is(th, td):nth-of-type(8) {
+  text-align: center;
+}
+
+.count__wrap {
+	position: relative;
+}
+.count__form {
+	margin: 0;
+}
+.count__input {
+    width: 50px;
+    text-align: center;
+    padding: 4px;
+}
+.count__btn {
+    position: relative;
+    top: -3px;
+    width: 28px;
+    height: 28px;
+    padding: 0px;
+    font-weight: 600;
+    line-height: 0;
+}
+.notice {
+	position: fixed;
+	top: 4px;
+	right: 2px;
+	background: white;
+	box-shadow: 0px 1px 4px 0px;
+	color: #198754;
+	border-color: #198754;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	padding: 0.375rem 0.75rem;
+	border-radius: 0.25rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
